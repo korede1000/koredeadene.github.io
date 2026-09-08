@@ -272,3 +272,59 @@ footer {
     }
 
 }
+/* ------------------------------
+   PAGE INTRO
+------------------------------ */
+
+.page-intro {
+    padding: 120px 8%;
+}
+
+
+.page-intro h1 {
+    font-size: clamp(50px, 8vw, 110px);
+
+    font-weight: 400;
+
+    letter-spacing: -4px;
+
+    margin-bottom: 25px;
+}
+
+
+.page-intro > p:last-child {
+    max-width: 600px;
+
+    color: #555;
+
+    font-size: 18px;
+}
+
+
+/* ------------------------------
+   PROJECT GRID
+------------------------------ */
+
+.project-grid {
+    padding: 0 5% 100px;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 70px 30px;
+}
+
+
+.project-grid .project-card {
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 700px) {
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
