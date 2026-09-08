@@ -383,3 +383,54 @@ footer {
     }
 
 }
+/* ------------------------------
+   CONTACT
+------------------------------ */
+
+.contact-page {
+    min-height: 75vh;
+
+    padding: 120px 8%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+
+.contact-page h1 {
+    font-size: clamp(60px, 10vw, 140px);
+
+    font-weight: 400;
+
+    letter-spacing: -5px;
+}
+
+
+.contact-page > p {
+    max-width: 500px;
+
+    margin-top: 30px;
+
+    font-size: 18px;
+
+    color: #555;
+}
+
+
+.contact-links {
+    display: flex;
+
+    gap: 40px;
+
+    margin-top: 60px;
+}
+
+
+.contact-links a {
+    font-size: 20px;
+
+    border-bottom: 1px solid #111;
+}
