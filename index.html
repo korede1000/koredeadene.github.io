@@ -1,124 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Korede Adene | Architectural Portfolio</title>
+  <title>Korede Adene | BIM Coordination & Architectural Design</title>
+  <meta
+    name="description"
+    content="Korede Adene is an Architectural Technologist and BIM professional specializing in BIM coordination, architectural design, visualization and construction documentation."
+  >
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-<header class="site-header">
+  <header class="site-header" id="top">
+    <div class="site-header__inner">
+      <a class="brand" href="#top" aria-label="Korede Adene home">
+        <img
+          class="brand__mark"
+          src="assets/logo.png"
+          alt=""
+          width="54"
+          height="54"
+        >
+        <span class="brand__text">
+          <span class="brand__name">KOREDE ADENE</span>
+          <span class="brand__tagline">DESIGN | COORDINATE | BUILD BETTER</span>
+        </span>
+      </a>
 
-    <a href="index.html" class="logo">
-        KOREDE ADENE
-    </a>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+        aria-label="Open navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+      <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation">
+        <a class="site-nav__link is-active" href="#top">Home</a>
+        <a class="site-nav__link" href="#about">About</a>
+        <a class="site-nav__link" href="#projects">Projects</a>
+        <a class="site-nav__link" href="#services">Services</a>
+        <a class="site-nav__link" href="#contact">Contact</a>
+      </nav>
 
-</header>
+      <a class="button button--primary header-cta" href="#contact">
+        <span>Let's connect</span>
+        <span class="button__arrow" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </header>
 
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Architectural Technology / BIM / Design</p>
 
-<main>
+          <h1 class="hero__title" id="hero-title">
+            <span>From Vision</span>
+            <span>to Reality</span>
+          </h1>
 
-    <section class="hero">
+          <p class="hero__copy">
+            BIM coordination and design solutions for a smarter,
+            more efficient built environment.
+          </p>
 
-        <p class="eyebrow">
-            Architectural Technologist + Designer
-        </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#projects">
+              <span>View my work</span>
+              <span class="button__arrow" aria-hidden="true">→</span>
+            </a>
 
-        <h1>
-            Architecture.<br>
-            Visualization.<br>
-            Design.
-        </h1>
+            <a class="showreel-link" href="#" aria-label="Watch showreel">
+              <span class="showreel-link__icon" aria-hidden="true">▶</span>
+              <span>Watch showreel</span>
+            </a>
+          </div>
 
-        <p class="hero-text">
-            A selection of architectural, technical and visual design work.
-        </p>
-
-        <a class="button" href="projects.html">
-            View Projects
-        </a>
-
-    </section>
-
-
-    <section class="selected-work">
-
-        <div class="section-heading">
-            <p>01</p>
-            <h2>Selected Work</h2>
+          <a class="hero__scroll" href="#services">
+            <span class="hero__scroll-rule" aria-hidden="true"></span>
+            <span class="hero__scroll-label">Scroll</span>
+            <span class="hero__scroll-arrow" aria-hidden="true">↓</span>
+          </a>
         </div>
 
+        <div class="hero__visual" aria-label="Contemporary architecture">
+          <div class="hero__image-wrap">
+            <img
+              class="hero__image"
+              src="assets/hero-building.jpg"
+              alt="Contemporary architectural building with strong geometric forms"
+            >
+          </div>
 
-        <article class="project-card">
+          <div class="hero__wash" aria-hidden="true"></div>
 
-            <div class="project-image placeholder">
-                Project Image
-            </div>
-
-            <div class="project-info">
-                <p>Residential Architecture</p>
-                <h3>Project One</h3>
-                <a href="#">View Project →</a>
-            </div>
-
-        </article>
-
-
-        <article class="project-card">
-
-            <div class="project-image placeholder">
-                Project Image
-            </div>
-
-            <div class="project-info">
-                <p>Architectural Visualization</p>
-                <h3>Project Two</h3>
-                <a href="#">View Project →</a>
-            </div>
-
-        </article>
-
-
-        <article class="project-card">
-
-            <div class="project-image placeholder">
-                Project Image
-            </div>
-
-            <div class="project-info">
-                <p>Technical / BIM</p>
-                <h3>Project Three</h3>
-                <a href="#">View Project →</a>
-            </div>
-
-        </article>
-
+          <div class="hero__panel">
+            <p class="hero__panel-words">
+              <span>Design</span>
+              <span>Coordinate</span>
+              <span>Visualize</span>
+              <span>Deliver</span>
+            </p>
+            <span class="hero__panel-rule" aria-hidden="true"></span>
+            <p class="hero__panel-quote">
+              Better Buildings<br>
+              Brighter Futures
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <section class="services-strip" id="services" aria-labelledby="services-title">
+      <h2 class="visually-hidden" id="services-title">Services and capabilities</h2>
 
-</main>
+      <div class="services-strip__grid">
+        <a class="service-card reveal" href="#bim-coordination">
+          <svg class="service-card__icon" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M24 4 40 13 24 22 8 13 24 4Z"></path>
+            <path d="M8 13v18l16 9 16-9V13"></path>
+            <path d="M24 22v18"></path>
+          </svg>
+          <h3 class="service-card__title">BIM Coordination</h3>
+          <p class="service-card__copy">
+            Clash detection, model coordination and constructible solutions.
+          </p>
+          <span class="service-card__arrow" aria-hidden="true">→</span>
+        </a>
 
+        <a class="service-card reveal" href="#architectural-design">
+          <svg class="service-card__icon" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M8 39 38 9l3 3-30 30H8v-3Z"></path>
+            <path d="m31 16 4 4"></path>
+            <path d="M10 34h20"></path>
+          </svg>
+          <h3 class="service-card__title">Architectural Design</h3>
+          <p class="service-card__copy">
+            From concept to detailed design drawings.
+          </p>
+          <span class="service-card__arrow" aria-hidden="true">→</span>
+        </a>
 
-<footer>
+        <a class="service-card reveal" href="#visualization">
+          <svg class="service-card__icon" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="m24 5 17 10-17 10L7 15 24 5Z"></path>
+            <path d="m7 24 17 10 17-10"></path>
+            <path d="m7 33 17 10 17-10"></path>
+          </svg>
+          <h3 class="service-card__title">3D Visualization</h3>
+          <p class="service-card__copy">
+            Bring ideas to life with realistic renderings and walkthroughs.
+          </p>
+          <span class="service-card__arrow" aria-hidden="true">→</span>
+        </a>
 
-    <p>© 2026 Korede Adene</p>
+        <a class="service-card reveal" href="#documentation">
+          <svg class="service-card__icon" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M13 5h17l7 7v31H13V5Z"></path>
+            <path d="M30 5v8h8"></path>
+            <path d="M18 22h14M18 28h14M18 34h10"></path>
+          </svg>
+          <h3 class="service-card__title">Construction Documentation</h3>
+          <p class="service-card__copy">
+            Accurate, code-compliant and build-ready drawings.
+          </p>
+          <span class="service-card__arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
 
-    <p>
-        Architectural Technologist
-    </p>
+    <section class="featured-projects" id="projects" aria-labelledby="projects-title">
+      <div class="featured-projects__intro reveal">
+        <div>
+          <p class="eyebrow eyebrow--light">Featured Projects</p>
+          <h2 class="featured-projects__title" id="projects-title">
+            Real Projects<br>
+            Real <em>Impact</em>
+          </h2>
+        </div>
 
-</footer>
+        <p class="featured-projects__copy">
+          A selection of work and professional experience spanning BIM coordination,
+          architectural design, visualization and complex multidisciplinary projects.
+        </p>
 
+        <a class="button button--outline-light" href="#">
+          <span>View all projects</span>
+          <span class="button__arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <div class="featured-projects__cards">
+        <article class="project-card reveal">
+          <a class="project-card__link" href="#">
+            <img
+              class="project-card__image"
+              src="assets/commercial-drawings.jpg"
+              alt="Multi-storey commercial building exterior"
+            >
+            <div class="project-card__overlay"></div>
+
+            <div class="project-card__content">
+              <div>
+                <h3 class="project-card__title">Commercial Drawings</h3>
+                <p class="project-card__meta">BIM Coordination / Design</p>
+              </div>
+              <span class="project-card__arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-card__link" href="#">
+            <img
+              class="project-card__image"
+              src="assets/bim-coordination.jpg"
+              alt="Coordinated building systems showing structural and MEP model geometry"
+            >
+            <div class="project-card__overlay"></div>
+
+            <div class="project-card__content">
+              <div>
+                <h3 class="project-card__title">BIM Coordination</h3>
+                <p class="project-card__meta">Clash Detection / Modelling</p>
+              </div>
+              <span class="project-card__arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-card__link" href="#">
+            <img
+              class="project-card__image"
+              src="assets/residential-design.jpg"
+              alt="Contemporary residential architecture at dusk"
+            >
+            <div class="project-card__overlay"></div>
+
+            <div class="project-card__content">
+              <div>
+                <h3 class="project-card__title">Residential Design</h3>
+                <p class="project-card__meta">Design / Visualization</p>
+              </div>
+              <span class="project-card__arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card project-card--major reveal">
+          <a class="project-card__link" href="#">
+            <img
+              class="project-card__image"
+              src="assets/major-works.jpg"
+              alt="Parliament Hill and major institutional architecture"
+            >
+            <div class="project-card__overlay"></div>
+
+            <span class="project-card__tag">Featured Experience</span>
+
+            <div class="project-card__content">
+              <div>
+                <h3 class="project-card__title">Major Works</h3>
+                <p class="project-card__meta">
+                  Parliament Hill<br>
+                  BIM Coordination
+                </p>
+              </div>
+              <span class="project-card__arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about__inner">
+        <div class="about__heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2 class="about__title" id="about-title">
+            Design<br>
+            Build<br>
+            <em>Improve</em>
+          </h2>
+        </div>
+
+        <div class="about__copy reveal">
+          <p>
+            I'm Korede Adene, an Architectural Technologist with a passion for
+            design, technology, and the built environment. I specialize in BIM
+            coordination and architectural design, helping turn ideas into
+            functional, buildable spaces.
+          </p>
+
+          <a class="button button--primary" href="#">
+            <span>More about me</span>
+            <span class="button__arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="about__stats reveal">
+          <div class="stats">
+            <div class="stat">
+              <strong class="stat__number">5+</strong>
+              <span class="stat__label">Years<br>Experience</span>
+            </div>
+            <div class="stat">
+              <strong class="stat__number">20+</strong>
+              <span class="stat__label">Projects<br>Completed</span>
+            </div>
+            <div class="stat">
+              <strong class="stat__number">100%</strong>
+              <span class="stat__label">Commitment<br>to Quality</span>
+            </div>
+          </div>
+
+          <div class="about__quote">
+            <span class="about__quote-rule" aria-hidden="true"></span>
+            <blockquote>
+              “Good design is not just what it looks like,<br>
+              but how well it works.”
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-cta" id="contact" aria-labelledby="contact-title">
+      <img
+        class="contact-cta__image"
+        src="assets/contact-monument.jpg"
+        alt="Monumental concrete architecture illuminated at dusk"
+      >
+      <div class="contact-cta__overlay"></div>
+
+      <div class="contact-cta__content reveal">
+        <p class="eyebrow eyebrow--light">Let's work together</p>
+        <h2 class="contact-cta__title" id="contact-title">
+          Ready to bring your<br>
+          next project to life?
+        </h2>
+        <p class="contact-cta__copy">
+          Whether you need BIM coordination, design support,<br>
+          or just want to collaborate, I'd love to hear from you.
+        </p>
+
+        <a class="button button--light" href="mailto:KoredeAdene@gmail.com">
+          <span>Get in touch</span>
+          <span class="button__arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <a class="brand brand--footer" href="#top" aria-label="Korede Adene home">
+        <img
+          class="brand__mark"
+          src="assets/logo.png"
+          alt=""
+          width="48"
+          height="48"
+        >
+        <span class="brand__text">
+          <span class="brand__name">KOREDE ADENE</span>
+          <span class="brand__tagline">DESIGN | COORDINATE | BUILD BETTER</span>
+        </span>
+      </a>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a class="is-active" href="#top">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="site-footer__right">
+        <div class="social-links" aria-label="Social links">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="mailto:KoredeAdene@gmail.com" aria-label="Email">✉</a>
+        </div>
+
+        <div class="site-footer__meta">
+          <p>© 2026 Korede Adene. All rights reserved.</p>
+          <p>Designing for a better built world.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
