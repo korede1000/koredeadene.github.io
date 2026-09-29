@@ -57,3 +57,15 @@
     });
   }
 })();
+
+const contactForm = document.getElementById("message-form");
+if (contactForm) {
+  contactForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (!contactForm.reportValidity()) return;
+    const data = new FormData(contactForm);
+    const subject = `${data.get("type") || "Project inquiry"} from ${data.get("name")}`;
+    const body = `Name: ${data.get("name")}\nEmail: ${data.get("email")}\nCompany: ${data.get("company") || "—"}\nProject type: ${data.get("type") || "—"}\n\n${data.get("message")}`;
+    window.location.href = `mailto:KoredeAdene@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  });
+}

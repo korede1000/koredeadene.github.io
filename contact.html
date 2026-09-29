@@ -33,20 +33,55 @@
   <main id="main-content">
     <section class="contact-hero" aria-labelledby="contact-heading">
       <div class="contact-hero__content">
-        <p class="eyebrow">Get in touch</p>
-        <h1 id="contact-heading">Let's <em>connect.</em></h1>
-        <p class="contact-hero__intro">Have a project in mind or an opportunity to collaborate? Tell me what you are working on. I would be glad to hear from you.</p>
-        <a class="button button--primary contact-hero__button" href="mailto:KoredeAdene@gmail.com?subject=Project%20inquiry"><span>Send me an email</span><span class="button__arrow" aria-hidden="true">→</span></a>
-        <div class="contact-hero__details">
-          <div><span class="contact-hero__label">Email</span><a href="mailto:KoredeAdene@gmail.com">KoredeAdene@gmail.com</a></div>
-          <div><span class="contact-hero__label">Based in</span><span>Ottawa, Ontario, Canada</span></div>
-        </div>
+        <p class="eyebrow">Contact</p>
+        <h1 id="contact-heading">Let’s Build<br>Something <em>Better.</em></h1>
+        <p class="contact-hero__intro">Whether you are looking for BIM coordination, architectural design support, visualization or simply want to connect, I would be glad to hear from you.</p>
+        <a class="button button--primary contact-hero__button" href="#message-form">Get in touch <span class="button__arrow" aria-hidden="true">→</span></a>
       </div>
       <div class="contact-hero__visual">
         <img src="assets/contact-monument.jpg" alt="Sculptural concrete architecture at dusk">
-        <div class="contact-hero__caption"><span>Design</span><span>Coordinate</span><span>Build better</span></div>
+        <div class="contact-hero__caption"><span>BIM</span><span>Design</span><span>Coordination</span><span>Visualization</span><p>Good Projects<br>Start with<br>Great Conversations.</p></div>
       </div>
     </section>
+
+    <section class="contact-columns" aria-label="Contact details and message form">
+      <div class="contact-column contact-column--details">
+        <h2>Get in Touch</h2>
+        <p>I am open to discussing new opportunities, collaborations or ideas. Reach out using the details below or compose a message here.</p>
+        <dl class="contact-methods">
+          <div><dt>Email</dt><dd><a href="mailto:KoredeAdene@gmail.com">KoredeAdene@gmail.com</a></dd></div>
+          <div><dt>Phone</dt><dd><a href="tel:+16137201036">+1 (613) 720-1036</a></dd></div>
+          <div><dt>Location</dt><dd>Ottawa, Ontario, Canada</dd></div>
+          <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/korede-adene/" rel="me">linkedin.com/in/korede-adene</a></dd></div>
+        </dl>
+        <blockquote>“Great spaces begin<br>with great conversations.”<cite>— Korede Adene</cite></blockquote>
+      </div>
+      <div class="contact-column contact-column--form">
+        <h2>Send a Message</h2>
+        <p>Tell me about your project or inquiry. The form will open your email app with your message ready to send.</p>
+        <form id="message-form" action="mailto:KoredeAdene@gmail.com" method="get">
+          <label for="contact-name">Name *</label><input id="contact-name" name="name" autocomplete="name" required placeholder="Your name">
+          <label for="contact-email">Email *</label><input id="contact-email" name="email" type="email" autocomplete="email" required placeholder="Your email address">
+          <label for="contact-company">Company / Organization</label><input id="contact-company" name="company" autocomplete="organization" placeholder="Your company (optional)">
+          <label for="contact-type">Project type</label><select id="contact-type" name="type"><option value="">Select a project type</option><option>BIM coordination</option><option>Architectural design</option><option>Visualization</option><option>Other inquiry</option></select>
+          <label for="contact-message">Message *</label><textarea id="contact-message" name="message" required rows="5" placeholder="Tell me about your project..."></textarea>
+          <button class="button button--primary" type="submit">Compose message <span class="button__arrow" aria-hidden="true">→</span></button>
+        </form>
+      </div>
+      <aside class="contact-column contact-column--aside">
+        <h2>Start with<br>a Conversation.</h2>
+        <p>Good projects are built on clear communication, shared goals and a commitment to quality. Let us talk about how we can bring your ideas to life.</p>
+        <ul><li><strong>BIM</strong><span>Smarter coordination</span></li><li><strong>Design</strong><span>Functional and creative</span></li><li><strong>Coordination</strong><span>Better collaboration</span></li><li><strong>Visualization</strong><span>Bringing ideas to life</span></li></ul>
+        <blockquote>Ideas Today.<br>Better Buildings Tomorrow.</blockquote>
+      </aside>
+    </section>
+
+    <section class="contact-location" aria-labelledby="location-heading">
+      <div class="contact-location__graphic" aria-hidden="true"><span class="contact-location__pin">⌖</span><span>OTTAWA<br>ONTARIO, CANADA</span></div>
+      <div class="contact-location__copy"><p class="eyebrow">Based in Ottawa</p><h2 id="location-heading">Let’s Create<br>What’s Next.</h2><p>Based in Ottawa, I am open to local and remote opportunities across Canada and internationally.</p><a class="button button--outline" href="https://www.openstreetmap.org/search?query=Ottawa%2C%20Ontario%2C%20Canada">View on map <span class="button__arrow" aria-hidden="true">→</span></a></div>
+    </section>
+
+    <section class="contact-finale" aria-labelledby="finale-heading"><div><p class="eyebrow eyebrow--light">Let’s work together</p><h2 id="finale-heading">Ready to Turn Ideas<br>Into Reality?</h2><p>I would love to hear about your project and explore how we can work together.</p></div><a class="button button--light" href="mailto:KoredeAdene@gmail.com">Get in touch <span class="button__arrow" aria-hidden="true">→</span></a></section>
   </main>
   <footer class="site-footer">
     <div class="site-footer__inner">
