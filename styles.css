@@ -1614,3 +1614,6 @@ button {
     transform: none;
   }
 }
+section {
+  scroll-margin-top: 100px;
+}
