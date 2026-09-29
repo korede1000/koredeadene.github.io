@@ -1,86 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Contact | Korede Adene</title>
-
-    <link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Korede Adene for BIM coordination, architectural design, visualization and collaboration opportunities.">
+  <title>Contact | Korede Adene</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
-
-
-<body class="legacy-page">
-
-
-<header class="site-header">
-
-    <a href="index.html" class="logo">
-        KOREDE ADENE
-    </a>
-
-    <nav>
-
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-
-    </nav>
-
-</header>
-
-
-<main>
-
-
-<section class="contact-page">
-
-    <p class="eyebrow">
-        Contact
-    </p>
-
-    <h1>
-        Let's connect.
-    </h1>
-
-    <p>
-        For architectural opportunities, collaborations
-        or design work, feel free to reach out.
-    </p>
-
-
-    <div class="contact-links">
-
-        <a href="mailto:YOUR-EMAIL-HERE">
-            Email →
-        </a>
-
-        <a href="YOUR-LINKEDIN-URL">
-            LinkedIn →
-        </a>
-
+<body class="contact-layout">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html" aria-label="Korede Adene home">
+        <img class="brand__mark" src="assets/logo.png" alt="" width="54" height="54">
+        <span class="brand__text"><span class="brand__name">KOREDE ADENE</span><span class="brand__tagline">DESIGN | COORDINATE | BUILD BETTER</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><span></span><span></span></button>
+      <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation">
+        <a class="site-nav__link" href="index.html">Home</a>
+        <a class="site-nav__link" href="about.html">About</a>
+        <a class="site-nav__link" href="projects.html">Projects</a>
+        <a class="site-nav__link" href="services.html">Services</a>
+        <a class="site-nav__link is-active" href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <a class="button button--primary header-cta" href="mailto:KoredeAdene@gmail.com"><span>Let's connect</span><span class="button__arrow" aria-hidden="true">→</span></a>
     </div>
-
-</section>
-
-
-</main>
-
-
-<footer>
-
-    <p>© 2026 Korede Adene</p>
-
-    <p>Architectural Technologist</p>
-
-</footer>
-
-
+  </header>
+  <main id="main-content">
+    <section class="contact-hero" aria-labelledby="contact-heading">
+      <div class="contact-hero__content">
+        <p class="eyebrow">Get in touch</p>
+        <h1 id="contact-heading">Let's <em>connect.</em></h1>
+        <p class="contact-hero__intro">Have a project in mind or an opportunity to collaborate? Tell me what you are working on. I would be glad to hear from you.</p>
+        <a class="button button--primary contact-hero__button" href="mailto:KoredeAdene@gmail.com?subject=Project%20inquiry"><span>Send me an email</span><span class="button__arrow" aria-hidden="true">→</span></a>
+        <div class="contact-hero__details">
+          <div><span class="contact-hero__label">Email</span><a href="mailto:KoredeAdene@gmail.com">KoredeAdene@gmail.com</a></div>
+          <div><span class="contact-hero__label">Based in</span><span>Ottawa, Ontario, Canada</span></div>
+        </div>
+      </div>
+      <div class="contact-hero__visual">
+        <img src="assets/contact-monument.jpg" alt="Sculptural concrete architecture at dusk">
+        <div class="contact-hero__caption"><span>Design</span><span>Coordinate</span><span>Build better</span></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <a class="brand brand--footer" href="index.html" aria-label="Korede Adene home"><img class="brand__mark" src="assets/logo.png" alt="" width="46" height="46"><span class="brand__text"><span class="brand__name">KOREDE ADENE</span><span class="brand__tagline">DESIGN | COORDINATE | BUILD BETTER</span></span></a>
+      <nav class="footer-nav" aria-label="Footer navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="services.html">Services</a><a class="is-active" href="contact.html" aria-current="page">Contact</a></nav>
+      <div class="site-footer__right"><a class="button button--outline" href="mailto:KoredeAdene@gmail.com">Email me <span class="button__arrow" aria-hidden="true">→</span></a><div class="site-footer__meta"><p>© 2026 Korede Adene. All rights reserved.</p><p>Designing for a better built world.</p></div></div>
+    </div>
+  </footer>
 </body>
-
 </html>
