@@ -222,10 +222,14 @@ button {
 ------------------------------ */
 
 .site-header {
-  position: relative;
-  z-index: 100;
-  background: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.96);
   border-bottom: var(--border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .site-header__inner {
