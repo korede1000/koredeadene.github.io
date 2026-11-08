@@ -10,7 +10,6 @@
     content="Korede Adene is an Architectural Technologist and BIM professional specializing in BIM coordination, architectural design, visualization and construction documentation."
   >
 
-  <link rel="icon" href="assets/favicon.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +19,7 @@
   >
 
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="projects.css">
   <script src="script.js" defer></script>
 </head>
 
@@ -56,7 +56,7 @@
       <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation">
         <a class="site-nav__link is-active" href="#top">Home</a>
         <a class="site-nav__link" href="#about">About</a>
-        <a class="site-nav__link" href="#projects">Projects</a>
+        <a class="site-nav__link" href="projects.html">Projects</a>
         <a class="site-nav__link" href="services.html">Services</a>
         <a class="site-nav__link" href="contact.html">Contact</a>
       </nav>
@@ -85,14 +85,14 @@
           </p>
 
           <div class="hero__actions">
-            <a class="button button--primary" href="#projects">
+            <a class="button button--primary" href="projects.html">
               <span>View my work</span>
               <span class="button__arrow" aria-hidden="true">→</span>
             </a>
 
-            <a class="showreel-link" href="#" aria-label="Watch showreel">
-              <span class="showreel-link__icon" aria-hidden="true">▶</span>
-              <span>Watch showreel</span>
+            <a class="showreel-link" href="services.html" aria-label="Explore services">
+              <span class="showreel-link__icon" aria-hidden="true">→</span>
+              <span>Explore services</span>
             </a>
           </div>
 
@@ -135,7 +135,7 @@
       <h2 class="visually-hidden" id="services-title">Services and capabilities</h2>
 
       <div class="services-strip__grid">
-        <a class="service-card reveal" href="#bim-coordination">
+        <a class="service-card reveal" href="services.html#bim-coordination">
           <svg class="service-card__icon" viewBox="0 0 48 48" aria-hidden="true">
             <path d="M24 4 40 13 24 22 8 13 24 4Z"></path>
             <path d="M8 13v18l16 9 16-9V13"></path>
@@ -148,7 +148,7 @@
           <span class="service-card__arrow" aria-hidden="true">→</span>
         </a>
 
-        <a class="service-card reveal" href="#architectural-design">
+        <a class="service-card reveal" href="services.html#architectural-design">
           <svg class="service-card__icon" viewBox="0 0 48 48" aria-hidden="true">
             <path d="M8 39 38 9l3 3-30 30H8v-3Z"></path>
             <path d="m31 16 4 4"></path>
@@ -161,7 +161,7 @@
           <span class="service-card__arrow" aria-hidden="true">→</span>
         </a>
 
-        <a class="service-card reveal" href="#visualization">
+        <a class="service-card reveal" href="services.html#visualization">
           <svg class="service-card__icon" viewBox="0 0 48 48" aria-hidden="true">
             <path d="m24 5 17 10-17 10L7 15 24 5Z"></path>
             <path d="m7 24 17 10 17-10"></path>
@@ -174,7 +174,7 @@
           <span class="service-card__arrow" aria-hidden="true">→</span>
         </a>
 
-        <a class="service-card reveal" href="#documentation">
+        <a class="service-card reveal" href="services.html#documentation">
           <svg class="service-card__icon" viewBox="0 0 48 48" aria-hidden="true">
             <path d="M13 5h17l7 7v31H13V5Z"></path>
             <path d="M30 5v8h8"></path>
@@ -189,108 +189,17 @@
       </div>
     </section>
 
-    <section class="featured-projects" id="projects" aria-labelledby="projects-title">
-      <div class="featured-projects__intro reveal">
-        <div>
-          <p class="eyebrow eyebrow--light">Featured Projects</p>
-          <h2 class="featured-projects__title" id="projects-title">
-            Real Projects<br>
-            Real <em>Impact</em>
-          </h2>
-        </div>
-
-        <p class="featured-projects__copy">
-          A selection of work and professional experience spanning BIM coordination,
-          architectural design, visualization and complex multidisciplinary projects.
-        </p>
-
-        <a class="button button--outline-light" href="#">
-          <span>View all projects</span>
-          <span class="button__arrow" aria-hidden="true">→</span>
-        </a>
+    <section class="featured-projects home-projects" id="projects" aria-labelledby="projects-title">
+      <div class="home-projects__heading">
+        <div><p class="eyebrow">Selected work</p><h2 id="projects-title">Real Projects. Real <em>Impact.</em></h2></div>
+        <a class="button button--outline" href="projects.html">View all projects <span class="button__arrow" aria-hidden="true">→</span></a>
       </div>
-
-      <div class="featured-projects__cards">
-        <article class="project-card reveal">
-          <a class="project-card__link" href="#">
-            <img
-              class="project-card__image"
-              src="assets/commercial-drawings.jpg"
-              alt="Multi-storey commercial building exterior"
-            >
-            <div class="project-card__overlay"></div>
-
-            <div class="project-card__content">
-              <div>
-                <h3 class="project-card__title">Commercial Drawings</h3>
-                <p class="project-card__meta">BIM Coordination / Design</p>
-              </div>
-              <span class="project-card__arrow" aria-hidden="true">→</span>
-            </div>
-          </a>
-        </article>
-
-        <article class="project-card reveal">
-          <a class="project-card__link" href="#">
-            <img
-              class="project-card__image"
-              src="assets/bim-coordination.jpg"
-              alt="Coordinated building systems showing structural and MEP model geometry"
-            >
-            <div class="project-card__overlay"></div>
-
-            <div class="project-card__content">
-              <div>
-                <h3 class="project-card__title">BIM Coordination</h3>
-                <p class="project-card__meta">Clash Detection / Modelling</p>
-              </div>
-              <span class="project-card__arrow" aria-hidden="true">→</span>
-            </div>
-          </a>
-        </article>
-
-        <article class="project-card reveal">
-          <a class="project-card__link" href="#">
-            <img
-              class="project-card__image"
-              src="assets/residential-design.jpg"
-              alt="Contemporary residential architecture at dusk"
-            >
-            <div class="project-card__overlay"></div>
-
-            <div class="project-card__content">
-              <div>
-                <h3 class="project-card__title">Residential Design</h3>
-                <p class="project-card__meta">Design / Visualization</p>
-              </div>
-              <span class="project-card__arrow" aria-hidden="true">→</span>
-            </div>
-          </a>
-        </article>
-
-        <article class="project-card project-card--major reveal">
-          <a class="project-card__link" href="#">
-            <img
-              class="project-card__image"
-              src="assets/major-works.jpg"
-              alt="Parliament Hill and major institutional architecture"
-            >
-            <div class="project-card__overlay"></div>
-
-            <span class="project-card__tag">Featured Experience</span>
-
-            <div class="project-card__content">
-              <div>
-                <h3 class="project-card__title">Major Works</h3>
-                <p class="project-card__meta">
-                  Parliament Hill<br>
-                  BIM Coordination
-                </p>
-              </div>
-              <span class="project-card__arrow" aria-hidden="true">→</span>
-            </div>
-          </a>
-        </article>
+      <div class="home-projects__grid">
+        <a class="home-projects__card" href="projects.html#bim-coordination"><img src="assets/bim-coordination.jpg" alt="Illustrated BIM model" loading="lazy"><span>01 / BIM Coordination</span></a>
+        <a class="home-projects__card" href="projects.html#major-works"><img src="assets/contact-monument.jpg" alt="Architectural visualization representing major work" loading="lazy"><span>02 / Major Works</span></a>
+        <a class="home-projects__card" href="projects.html#commercial-drawings"><img src="assets/commercial-drawings.jpg" alt="Contemporary commercial building visualization" loading="lazy"><span>03 / Commercial Drawings</span></a>
+        <a class="home-projects__card" href="projects.html#residential-drawings"><img src="assets/hero-building.jpg" alt="Contemporary architecture visualization" loading="lazy"><span>04 / Residential Drawings</span></a>
+        <a class="home-projects__card" href="projects.html#other-designs"><img src="assets/commercial-drawings.jpg" alt="Architectural visualization representing design studies" loading="lazy"><span>05 / Other Designs</span></a>
       </div>
     </section>
 
@@ -313,7 +222,7 @@
             functional, buildable spaces.
           </p>
 
-          <a class="button button--primary" href="#">
+          <a class="button button--primary" href="about.html">
             <span>More about me</span>
             <span class="button__arrow" aria-hidden="true">→</span>
           </a>
@@ -392,15 +301,14 @@
       <nav class="footer-nav" aria-label="Footer navigation">
         <a class="is-active" href="#top">Home</a>
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
+        <a href="projects.html">Projects</a>
         <a href="#services">Services</a>
         <a href="contact.html">Contact</a>
       </nav>
 
       <div class="site-footer__right">
         <div class="social-links" aria-label="Social links">
-          <a href="#" aria-label="LinkedIn">in</a>
-          <a href="#" aria-label="Instagram">◎</a>
+          <a href="https://www.linkedin.com/in/korede-adene/" aria-label="LinkedIn">in</a>
           <a href="mailto:KoredeAdene@gmail.com" aria-label="Email">✉</a>
         </div>
 
