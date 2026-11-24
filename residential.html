@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="residential.css">
   <script src="script.js" defer></script>
+  <script src="residential.js" defer></script>
 </head>
 <body class="residential-page">
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -37,28 +38,217 @@
       <div class="res-hero__corner" aria-hidden="true">DESIGN<br>DOCUMENT<br>DELIVER</div>
     </section>
 
-    <div class="res-intro"><span>01 — 07</span><p>Plans, elevations and documentation across varied residential scales. The images below are selected drawing excerpts; each project reflects a wider coordinated drawing set.</p></div>
+    <div class="res-intro"><span>01 — 07</span><p>Plans, elevations and documentation across varied residential scales. Open any project to see more drawings and views.</p></div>
 
     <section class="res-section" id="homes" aria-labelledby="homes-title">
       <div class="res-section__heading"><div><p class="eyebrow">Individual homes</p><h2 id="homes-title">A place to <em>call home.</em></h2></div><span>01 / 04</span></div>
       <div class="res-grid">
-        <article class="res-card"><div class="res-card__image"><img src="assets/residential/flat-roof.jpg" alt="South elevation drawing of a contemporary flat-roof residence" loading="lazy"></div><div class="res-card__meta"><span>01 / Residence</span><span>Elevations</span></div><h3>Carp House</h3><p>A contemporary residence developed through a detailed architectural drawing package, including its distinctive layered roofline and elevations.</p></article>
-        <article class="res-card"><div class="res-card__image"><img src="assets/residential/tampa.jpg" alt="West elevation drawing of a residential renovation" loading="lazy"></div><div class="res-card__meta"><span>02 / Renovation</span><span>Construction drawings</span></div><h3>Tampa Avenue</h3><p>Residential renovation drawings that bring a refreshed exterior and updated living spaces together on an existing foundation.</p></article>
-        <article class="res-card"><div class="res-card__image"><img src="assets/residential/ogilvie.jpg" alt="Proposed main floor plan for a residential alteration" loading="lazy"></div><div class="res-card__meta"><span>03 / Adaptation</span><span>Floor plan</span></div><h3>Ogilvie Road</h3><p>A proposed residential floor plan that reorganizes part of an existing home for additional living accommodation.</p></article>
-        <article class="res-card"><div class="res-card__image"><img src="assets/residential/legallais.jpg" alt="Front elevation drawing of a rural residence" loading="lazy"></div><div class="res-card__meta"><span>04 / Residence</span><span>Elevations</span></div><h3>Rural Residence</h3><p>A low-profile home with a broad frontage and garage, documented through residential plans and elevations.</p></article>
+        <details class="res-card" aria-labelledby="flat-roof-title">
+          <summary class="res-card__summary" aria-labelledby="flat-roof-title">
+            <span class="res-card__image"><img src="assets/residential/flat-roof.jpg" alt="South elevation drawing of a contemporary flat-roof residence" loading="lazy"></span>
+            <span class="res-card__meta"><span>01 / Residence</span><span>Elevations</span></span>
+            <span class="res-card__title" id="flat-roof-title">Carp House</span>
+            <span class="res-card__description">A contemporary residence developed through a detailed architectural drawing package, including its distinctive layered roofline and elevations.</span>
+            <span class="res-card__toggle" aria-hidden="true">
+              <span class="res-card__open">View gallery</span>
+              <span class="res-card__close">Hide gallery</span>
+              <span class="res-card__indicator"></span>
+            </span>
+          </summary>
+          <div class="res-gallery" role="group" aria-label="Carp House drawings">
+              <a class="res-gallery__item" href="assets/residential/gallery/flat-roof/ground-floor.webp">
+                <img src="assets/residential/gallery/flat-roof/ground-floor.webp" alt="" width="1601" height="1580" loading="lazy" decoding="async">
+                <span>Ground floor plan <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/flat-roof/east-west.webp">
+                <img src="assets/residential/gallery/flat-roof/east-west.webp" alt="" width="1601" height="1200" loading="lazy" decoding="async">
+                <span>East and west elevations <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/flat-roof/sections.webp">
+                <img src="assets/residential/gallery/flat-roof/sections.webp" alt="" width="1601" height="1198" loading="lazy" decoding="async">
+                <span>Building sections <span aria-hidden="true">↗</span></span>
+              </a>
+          </div>
+        </details>
+        <details class="res-card" aria-labelledby="tampa-title">
+          <summary class="res-card__summary" aria-labelledby="tampa-title">
+            <span class="res-card__image"><img src="assets/residential/tampa.jpg" alt="West elevation drawing of a residential renovation" loading="lazy"></span>
+            <span class="res-card__meta"><span>02 / Renovation</span><span>Construction drawings</span></span>
+            <span class="res-card__title" id="tampa-title">Tampa Avenue</span>
+            <span class="res-card__description">Residential renovation drawings that bring a refreshed exterior and updated living spaces together on an existing foundation.</span>
+            <span class="res-card__toggle" aria-hidden="true">
+              <span class="res-card__open">View gallery</span>
+              <span class="res-card__close">Hide gallery</span>
+              <span class="res-card__indicator"></span>
+            </span>
+          </summary>
+          <div class="res-gallery" role="group" aria-label="Tampa Avenue drawings">
+              <a class="res-gallery__item" href="assets/residential/gallery/tampa/rendering.webp">
+                <img src="assets/residential/gallery/tampa/rendering.webp" alt="" width="1601" height="862" loading="lazy" decoding="async">
+                <span>Exterior rendering <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/tampa/first-floor.webp">
+                <img src="assets/residential/gallery/tampa/first-floor.webp" alt="" width="1601" height="1177" loading="lazy" decoding="async">
+                <span>First floor plan <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/tampa/sections.webp">
+                <img src="assets/residential/gallery/tampa/sections.webp" alt="" width="1564" height="1601" loading="lazy" decoding="async">
+                <span>Building sections <span aria-hidden="true">↗</span></span>
+              </a>
+          </div>
+        </details>
+        <details class="res-card" aria-labelledby="ogilvie-title">
+          <summary class="res-card__summary" aria-labelledby="ogilvie-title">
+            <span class="res-card__image"><img src="assets/residential/ogilvie.jpg" alt="Proposed main floor plan for a residential alteration" loading="lazy"></span>
+            <span class="res-card__meta"><span>03 / Adaptation</span><span>Floor plan</span></span>
+            <span class="res-card__title" id="ogilvie-title">Ogilvie Road</span>
+            <span class="res-card__description">A proposed residential floor plan that reorganizes part of an existing home for additional living accommodation.</span>
+            <span class="res-card__toggle" aria-hidden="true">
+              <span class="res-card__open">View gallery</span>
+              <span class="res-card__close">Hide gallery</span>
+              <span class="res-card__indicator"></span>
+            </span>
+          </summary>
+          <div class="res-gallery" role="group" aria-label="Ogilvie Road drawings">
+              <a class="res-gallery__item" href="assets/residential/gallery/ogilvie/main-floor-existing.webp">
+                <img src="assets/residential/gallery/ogilvie/main-floor-existing.webp" alt="" width="1601" height="1125" loading="lazy" decoding="async">
+                <span>Main floor existing and demolition plan <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/ogilvie/basement-existing.webp">
+                <img src="assets/residential/gallery/ogilvie/basement-existing.webp" alt="" width="1601" height="1125" loading="lazy" decoding="async">
+                <span>Basement existing and demolition plan <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/ogilvie/basement-proposed.webp">
+                <img src="assets/residential/gallery/ogilvie/basement-proposed.webp" alt="" width="1601" height="1109" loading="lazy" decoding="async">
+                <span>Proposed basement plan <span aria-hidden="true">↗</span></span>
+              </a>
+          </div>
+        </details>
+        <details class="res-card" aria-labelledby="legallais-title">
+          <summary class="res-card__summary" aria-labelledby="legallais-title">
+            <span class="res-card__image"><img src="assets/residential/legallais.jpg" alt="Front elevation drawing of a rural residence" loading="lazy"></span>
+            <span class="res-card__meta"><span>04 / Residence</span><span>Elevations</span></span>
+            <span class="res-card__title" id="legallais-title">Rural Residence</span>
+            <span class="res-card__description">A low-profile home with a broad frontage and garage, documented through residential plans and elevations.</span>
+            <span class="res-card__toggle" aria-hidden="true">
+              <span class="res-card__open">View gallery</span>
+              <span class="res-card__close">Hide gallery</span>
+              <span class="res-card__indicator"></span>
+            </span>
+          </summary>
+          <div class="res-gallery" role="group" aria-label="Rural Residence drawings">
+              <a class="res-gallery__item" href="assets/residential/gallery/legallais/main-floor.webp">
+                <img src="assets/residential/gallery/legallais/main-floor.webp" alt="" width="1278" height="1601" loading="lazy" decoding="async">
+                <span>Main floor plan <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/legallais/roof-plan.webp">
+                <img src="assets/residential/gallery/legallais/roof-plan.webp" alt="" width="1601" height="1583" loading="lazy" decoding="async">
+                <span>Roof plan <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/legallais/elevations.webp">
+                <img src="assets/residential/gallery/legallais/elevations.webp" alt="" width="1601" height="1186" loading="lazy" decoding="async">
+                <span>Exterior elevations <span aria-hidden="true">↗</span></span>
+              </a>
+          </div>
+        </details>
       </div>
     </section>
 
     <section class="res-section res-section--urban" id="multi-unit" aria-labelledby="urban-title">
       <div class="res-section__heading"><div><p class="eyebrow">Urban housing</p><h2 id="urban-title">Living at <em>city scale.</em></h2></div><span>05 / 07</span></div>
       <div class="res-grid res-grid--three">
-        <article class="res-card"><div class="res-card__image"><img src="assets/residential/cummings.jpg" alt="North elevation drawing of a multi-storey residential building" loading="lazy"></div><div class="res-card__meta"><span>05 / Multi-unit</span><span>Building elevation</span></div><h3>Cummings Avenue</h3><p>A multi-storey residential scheme with a composed facade and coordinated architectural documentation.</p></article>
-        <article class="res-card"><div class="res-card__image"><img src="assets/residential/beechwood.jpg" alt="West elevation drawing of a multi-unit residential building" loading="lazy"></div><div class="res-card__meta"><span>06 / Multi-unit</span><span>Building elevation</span></div><h3>Beechwood Avenue</h3><p>Urban residential documentation exploring a layered street-facing facade, material transitions and compact housing.</p></article>
-        <article class="res-card"><div class="res-card__image"><img src="assets/residential/bronson.jpg" alt="East elevation drawing of a multi-unit residential building" loading="lazy"></div><div class="res-card__meta"><span>07 / Multi-unit</span><span>Building elevations</span></div><h3>Bronson Avenue</h3><p>A multi-level residential drawing set with articulated elevations and carefully resolved building massing.</p></article>
+        <details class="res-card" aria-labelledby="cummings-title">
+          <summary class="res-card__summary" aria-labelledby="cummings-title">
+            <span class="res-card__image"><img src="assets/residential/cummings.jpg" alt="North elevation drawing of a multi-storey residential building" loading="lazy"></span>
+            <span class="res-card__meta"><span>05 / Multi-unit</span><span>Building elevation</span></span>
+            <span class="res-card__title" id="cummings-title">Cummings Avenue</span>
+            <span class="res-card__description">A multi-storey residential scheme with a composed facade and coordinated architectural documentation.</span>
+            <span class="res-card__toggle" aria-hidden="true">
+              <span class="res-card__open">View gallery</span>
+              <span class="res-card__close">Hide gallery</span>
+              <span class="res-card__indicator"></span>
+            </span>
+          </summary>
+          <div class="res-gallery" role="group" aria-label="Cummings Avenue drawings">
+              <a class="res-gallery__item" href="assets/residential/gallery/cummings/rendering.webp">
+                <img src="assets/residential/gallery/cummings/rendering.webp" alt="" width="1601" height="803" loading="lazy" decoding="async">
+                <span>Exterior rendering <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/cummings/second-floor.webp">
+                <img src="assets/residential/gallery/cummings/second-floor.webp" alt="" width="1601" height="1221" loading="lazy" decoding="async">
+                <span>Second floor plan <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/cummings/section.webp">
+                <img src="assets/residential/gallery/cummings/section.webp" alt="" width="1601" height="889" loading="lazy" decoding="async">
+                <span>Building section <span aria-hidden="true">↗</span></span>
+              </a>
+          </div>
+        </details>
+        <details class="res-card" aria-labelledby="beechwood-title">
+          <summary class="res-card__summary" aria-labelledby="beechwood-title">
+            <span class="res-card__image"><img src="assets/residential/beechwood.jpg" alt="West elevation drawing of a multi-unit residential building" loading="lazy"></span>
+            <span class="res-card__meta"><span>06 / Multi-unit</span><span>Building elevation</span></span>
+            <span class="res-card__title" id="beechwood-title">Beechwood Avenue</span>
+            <span class="res-card__description">Urban residential documentation exploring a layered street-facing facade, material transitions and compact housing.</span>
+            <span class="res-card__toggle" aria-hidden="true">
+              <span class="res-card__open">View gallery</span>
+              <span class="res-card__close">Hide gallery</span>
+              <span class="res-card__indicator"></span>
+            </span>
+          </summary>
+          <div class="res-gallery" role="group" aria-label="Beechwood Avenue drawings">
+              <a class="res-gallery__item" href="assets/residential/gallery/beechwood/perspective.webp">
+                <img src="assets/residential/gallery/beechwood/perspective.webp" alt="" width="1601" height="1206" loading="lazy" decoding="async">
+                <span>Exterior perspective <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/beechwood/second-floor.webp">
+                <img src="assets/residential/gallery/beechwood/second-floor.webp" alt="" width="1601" height="1180" loading="lazy" decoding="async">
+                <span>Second level floor plan <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/beechwood/section.webp">
+                <img src="assets/residential/gallery/beechwood/section.webp" alt="" width="1601" height="976" loading="lazy" decoding="async">
+                <span>Building section <span aria-hidden="true">↗</span></span>
+              </a>
+          </div>
+        </details>
+        <details class="res-card" aria-labelledby="bronson-title">
+          <summary class="res-card__summary" aria-labelledby="bronson-title">
+            <span class="res-card__image"><img src="assets/residential/bronson.jpg" alt="East elevation drawing of a multi-unit residential building" loading="lazy"></span>
+            <span class="res-card__meta"><span>07 / Multi-unit</span><span>Building elevations</span></span>
+            <span class="res-card__title" id="bronson-title">Bronson Avenue</span>
+            <span class="res-card__description">A multi-level residential drawing set with articulated elevations and carefully resolved building massing.</span>
+            <span class="res-card__toggle" aria-hidden="true">
+              <span class="res-card__open">View gallery</span>
+              <span class="res-card__close">Hide gallery</span>
+              <span class="res-card__indicator"></span>
+            </span>
+          </summary>
+          <div class="res-gallery" role="group" aria-label="Bronson Avenue drawings">
+              <a class="res-gallery__item" href="assets/residential/gallery/bronson/perspective.webp">
+                <img src="assets/residential/gallery/bronson/perspective.webp" alt="" width="1601" height="1020" loading="lazy" decoding="async">
+                <span>Exterior perspective <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/bronson/second-floor.webp">
+                <img src="assets/residential/gallery/bronson/second-floor.webp" alt="" width="1360" height="1601" loading="lazy" decoding="async">
+                <span>Second floor plan <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="res-gallery__item" href="assets/residential/gallery/bronson/section.webp">
+                <img src="assets/residential/gallery/bronson/section.webp" alt="" width="1601" height="1221" loading="lazy" decoding="async">
+                <span>Building section <span aria-hidden="true">↗</span></span>
+              </a>
+          </div>
+        </details>
       </div>
     </section>
     <section class="res-cta" aria-labelledby="res-cta-title"><div><p class="eyebrow">Have a project in mind?</p><h2 id="res-cta-title">Let’s shape what’s <em>next.</em></h2></div><a class="button button--light" href="contact.html">Get in touch <span class="button__arrow" aria-hidden="true">→</span></a></section>
   </main>
+  <dialog class="res-viewer" aria-labelledby="res-viewer-caption">
+    <form method="dialog"><button type="submit" autofocus>Close</button></form>
+    <figure>
+      <img alt="">
+      <figcaption id="res-viewer-caption"></figcaption>
+    </figure>
+  </dialog>
   <footer class="site-footer"><div class="site-footer__inner"><a class="brand brand--footer" href="index.html" aria-label="Korede Adene home"><img class="brand__mark" src="assets/logo.png" alt="" width="48" height="48"><span class="brand__text"><span class="brand__name">KOREDE ADENE</span><span class="brand__tagline">DESIGN | COORDINATE | BUILD BETTER</span></span></a><nav class="footer-nav" aria-label="Footer navigation"><a href="index.html">Home</a><a href="about.html">About</a><a class="is-active" href="projects.html">Projects</a><a href="services.html">Services</a><a href="contact.html">Contact</a></nav><div class="site-footer__right"><a class="res-footer-email" href="mailto:KoredeAdene@gmail.com" aria-label="Email Korede">✉</a><div class="site-footer__meta"><p>© 2026 Korede Adene. All rights reserved.</p><p>Designing for a better built world.</p></div></div></div></footer>
 </body>
 </html>
