@@ -24,6 +24,7 @@
 
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
+  <link rel="stylesheet" href="crownline.css">
 </head>
 
 
@@ -38,92 +39,16 @@
      HEADER
 ====================================================== -->
 
-<header class="site-header">
-
-  <div class="site-header__inner">
-
-    <a class="brand" href="index.html" aria-label="Korede Adene home">
-
-      <img
-        class="brand__mark"
-        src="assets/logo.png"
-        alt=""
-      >
-
-      <span class="brand__text">
-
-        <span class="brand__name">
-          KOREDE ADENE
-        </span>
-
-        <span class="brand__tagline">
-          DESIGN | COORDINATE | BUILD BETTER
-        </span>
-
-      </span>
-
-    </a>
-
-
-    <button
-      class="nav-toggle"
-      type="button"
-      aria-expanded="false"
-      aria-controls="primary-navigation"
-      aria-label="Open navigation"
-    >
-
-      <span></span>
-      <span></span>
-
-    </button>
-
-
-    <nav
-      class="site-nav"
-      id="primary-navigation"
-      aria-label="Primary navigation"
-    >
-
-      <a class="site-nav__link" href="index.html">
-        Home
-      </a>
-
-      <a class="site-nav__link is-active" href="about.html">
-        About
-      </a>
-
-      <a class="site-nav__link" href="projects.html">
-        Projects
-      </a>
-
-      <a class="site-nav__link" href="services.html">
-        Services
-      </a>
-
-      <a class="site-nav__link" href="contact.html">
-        Contact
-      </a>
-
-    </nav>
-
-
-    <a
-      class="button button--primary header-cta"
-      href="contact.html"
-    >
-
-      <span>Let's connect</span>
-
-      <span class="button__arrow">
-        →
-      </span>
-
-    </a>
-
-  </div>
-
-</header>
+<header class="site-header" id="top">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html" aria-label="Korede Adene home"><img class="brand__mark" src="assets/logo.png" alt="" width="54" height="54"><span class="brand__text"><span class="brand__name">KOREDE ADENE</span><span class="brand__tagline">DESIGN | COORDINATE | BUILD BETTER</span></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><span></span><span></span></button>
+      <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation">
+        <a class="site-nav__link" href="index.html">Home</a><a class="site-nav__link is-active" href="about.html" aria-current="page">About</a><a class="site-nav__link" href="projects.html">Projects</a><a class="site-nav__link" href="services.html">Services</a><a class="site-nav__link" href="contact.html">Contact</a>
+      </nav>
+      <a class="button button--primary header-cta" href="contact.html">Let's connect <span class="button__arrow" aria-hidden="true">→</span></a>
+    </div>
+  </header>
 
 
 
@@ -1303,116 +1228,7 @@
      FOOTER
 ====================================================== -->
 
-<footer class="site-footer">
-
-  <div class="site-footer__inner">
-
-
-    <a
-      class="brand brand--footer"
-      href="index.html"
-      aria-label="Korede Adene home"
-    >
-
-      <img
-        class="brand__mark"
-        src="assets/logo.png"
-        alt=""
-      >
-
-
-      <span class="brand__text">
-
-        <span class="brand__name">
-          KOREDE ADENE
-        </span>
-
-        <span class="brand__tagline">
-          DESIGN | COORDINATE | BUILD BETTER
-        </span>
-
-      </span>
-
-    </a>
-
-
-
-    <nav
-      class="footer-nav"
-      aria-label="Footer navigation"
-    >
-
-      <a href="index.html">
-        Home
-      </a>
-
-      <a class="is-active" href="about.html">
-        About
-      </a>
-
-      <a href="projects.html">
-        Projects
-      </a>
-
-      <a href="services.html">
-        Services
-      </a>
-
-      <a href="contact.html">
-        Contact
-      </a>
-
-    </nav>
-
-
-
-    <div class="site-footer__right">
-
-
-      <div
-        class="social-links"
-        aria-label="Social links"
-      >
-
-        <a
-          href="https://www.linkedin.com/in/korede-adene/"
-          aria-label="LinkedIn"
-        ><img src="assets/icons/icon-linkedin.svg" width="24" height="24" alt=""></a>
-
-
-        <a
-          href="#"
-          aria-label="Instagram"
-        >
-          ◎
-        </a>
-
-
-        <a
-          href="mailto:KoredeAdene@gmail.com"
-          aria-label="Email"
-        ><img src="assets/icons/icon-email.svg" width="24" height="24" alt=""></a>
-
-      </div>
-
-
-      <div class="site-footer__meta">
-
-        <p>
-          © 2026 Korede Adene. All rights reserved.
-        </p>
-
-        <p>
-          Designing for a better built world.
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</footer>
+<footer class="site-footer"><div class="site-footer__inner"><a class="brand brand--footer" href="index.html" aria-label="Korede Adene home"><img class="brand__mark" src="assets/logo.png" alt="" width="48" height="48"><span class="brand__text"><span class="brand__name">KOREDE ADENE</span><span class="brand__tagline">DESIGN | COORDINATE | BUILD BETTER</span></span></a><nav class="footer-nav" aria-label="Footer navigation"><a href="index.html">Home</a><a class="is-active" href="about.html" aria-current="page">About</a><a href="projects.html">Projects</a><a href="services.html">Services</a><a href="contact.html">Contact</a></nav><div class="site-footer__right"><a class="projects-footer-email" href="mailto:KoredeAdene@gmail.com" aria-label="Email Korede"><img src="assets/icons/icon-email.svg" width="24" height="24" alt=""></a><div class="site-footer__meta"><p>© 2026 Korede Adene. All rights reserved.</p><p>Designing for a better built world.</p></div></div></div></footer>
 
 
 </body>
