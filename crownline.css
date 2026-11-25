@@ -1,0 +1,31 @@
+/* Crownline / Alpha palette. Keep content imagery in its original colours. */
+:root {
+  --black:#090909; --blue:#0b369e; --blue-dark:#082b80;
+  --gray:#868683; --gray-dark:#4d504f; --gray-light:#d1dcdc;
+  --off-white:#f5f5f5; --blue-gray:#d1dcdc;
+  --page-padding:clamp(1.25rem,4.5vw,5rem);
+}
+body .site-header,body .site-footer {background:#fff;border-color:var(--gray-light);box-shadow:none}
+body .site-header__inner,body .site-footer__inner {padding-inline:var(--page-padding)}
+body .brand .brand__name {color:var(--blue);letter-spacing:.075em}
+body .brand .brand__tagline {color:var(--gray-dark);letter-spacing:.12em}
+body .site-nav__link.is-active,body .footer-nav .is-active {color:var(--blue)}
+body .button--primary {background:var(--blue);color:white;border:1px solid var(--blue);border-radius:0;box-shadow:none}
+body .button--primary:hover {background:var(--blue-dark)}
+.category-card,.res-card,.service-card {border-color:var(--gray-light);box-shadow:none}
+.design-intro,.designs aside,.credential,.bim-cta,.res-section--urban {background:var(--blue-gray)}
+.bim-hero,.design-grid img,.res-card__image,.res-hero__image {background:var(--off-white)}
+.designs .label,.designs small,.bim-page .bim-label,.bim-page main small,.design-intro a,.bim-hero h2 {color:var(--blue)}
+.secure .bim-label {color:white}
+.designs section,.bim-spread,.bim-cta,.credential,.secure {padding-inline:var(--page-padding)}
+body main h1,body main h2 {text-wrap:balance}
+body :focus-visible {outline:3px solid var(--blue);outline-offset:3px}
+@media(min-width:1101px){
+ body .site-header .site-header__inner {display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:2rem}
+ body .site-header .site-nav {justify-self:center}
+}
+@media(max-width:650px){
+ body main .res-hero h1 {font-size:clamp(3.4rem,13vw,5rem);line-height:.94}
+ body .site-footer .site-footer__inner {grid-template-columns:1fr;justify-items:start;text-align:left;gap:1.25rem}
+ body .site-footer .footer-nav {display:flex;flex-wrap:wrap;gap:.7rem 1rem}
+}
