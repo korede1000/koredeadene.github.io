@@ -6,7 +6,7 @@
 .projects-hero h1 { margin: 0; font-family: var(--font-display); font-size: clamp(3.5rem, 5.1vw, 6.2rem); font-weight: 500; letter-spacing: -.035em; line-height: .83; }
 .projects-hero h1 em { color: #828994; font-weight: 400; }
 .projects-hero__content > p:last-child { max-width: 600px; margin: 25px 0 0; font-size: clamp(.83rem, 1vw, 1rem); line-height: 1.5; }
-.projects-hero__visual { background: url('assets/hero-building.jpg') center 49% / cover no-repeat; }
+.projects-hero__visual { background: url('assets/hero-building.webp') center 49% / cover no-repeat; }
 .projects-hero__panel { position: absolute; z-index: 2; top: 0; right: 0; bottom: 0; width: min(28%, 375px); display: flex; flex-direction: column; justify-content: center; align-items: flex-end; gap: 18px; padding: 35px 35px 35px 25%; color: #fff; background: #061b2f; clip-path: polygon(42% 0,100% 0,100% 100%,0 100%); text-align: left; }
 .projects-hero__panel > span:first-child { font-size: .64rem; letter-spacing: .2em; line-height: 1.55; text-transform: uppercase; }
 .projects-hero__rule { display: block; width: 37px; height: 1px; flex: 0 0 auto; background: rgba(255,255,255,.8); }
@@ -27,7 +27,7 @@
 .project-detail-list { max-width: 1500px; margin: 0 auto; padding: 65px var(--page-padding) 85px; }
 .project-detail-list__intro { max-width: 730px; margin-bottom: 32px; }.project-detail-list__intro h2 { margin: 0 0 13px; font-family: var(--font-display); font-size: clamp(2.7rem,4vw,4rem); font-weight: 500; line-height: 1; }.project-detail-list__intro p:last-child { color: var(--gray-dark); }
 .project-detail-list__grid { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 14px; }.project-detail-list__grid article { padding: 22px 18px; background: #fff; border-top: 2px solid var(--blue); scroll-margin-top: 110px; }.project-detail-list__grid span { color: var(--blue); font-size: .62rem; text-transform: uppercase; letter-spacing: .08em; }.project-detail-list__grid h3 { margin: 16px 0 10px; font-family: var(--font-display); font-size: 1.7rem; font-weight: 500; line-height: 1; }.project-detail-list__grid p { color: #4f5863; font-size: .75rem; line-height: 1.55; }
-.projects-cta { display: flex; justify-content: space-between; align-items: center; gap: 30px; min-height: 150px; padding: 30px var(--page-padding); color: #fff; background: linear-gradient(90deg,#061b2f 0%,rgba(6,27,47,.9) 52%,rgba(6,27,47,.35)),url('assets/hero-building.jpg') right 54% / cover; }.projects-cta h2 { margin: 0 0 4px; font-family: var(--font-display); font-size: clamp(2rem,3vw,3.2rem); font-weight: 500; line-height: 1; }.projects-cta p { margin: 0; font-size: .8rem; }.projects-cta .button { flex: 0 0 auto; }
+.projects-cta { display: flex; justify-content: space-between; align-items: center; gap: 30px; min-height: 150px; padding: 30px var(--page-padding); color: #fff; background: linear-gradient(90deg,#061b2f 0%,rgba(6,27,47,.9) 52%,rgba(6,27,47,.35)),url('assets/hero-building.webp') right 54% / cover; }.projects-cta h2 { margin: 0 0 4px; font-family: var(--font-display); font-size: clamp(2rem,3vw,3.2rem); font-weight: 500; line-height: 1; }.projects-cta p { margin: 0; font-size: .8rem; }.projects-cta .button { flex: 0 0 auto; }
 .projects-footer-email { font-size: 1.6rem; color: var(--navy); }
 /* Homepage teaser follows the same five-category structure as the full page. */
 .home-page .home-projects { display: block; color: var(--black); background: #f6f8fa; padding: clamp(50px,5vw,75px) var(--page-padding); }

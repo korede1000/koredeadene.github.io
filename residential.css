@@ -110,30 +110,3 @@
   justify-content: space-between;
   gap: 5px;
 }
-.res-viewer {
-  width: min(94vw, 1300px);
-  max-height: 94vh;
-  padding: clamp(12px, 2vw, 24px);
-  border: 1px solid #dfe5ec;
-  background: #fff;
-  color: var(--navy);
-}
-.res-viewer::backdrop { background: rgba(6, 27, 47, .82); }
-.res-viewer form { display: flex; justify-content: flex-end; margin: 0 0 12px; }
-.res-viewer button {
-  min-height: 44px;
-  padding: 0 16px;
-  border: 1px solid var(--blue-dark);
-  background: #fff;
-  color: var(--blue-dark);
-  font: inherit;
-  cursor: pointer;
-}
-.res-viewer figure { margin: 0; }
-.res-viewer img {
-  display: block;
-  width: 100%;
-  max-height: 73vh;
-  object-fit: contain;
-}
-.res-viewer figcaption { margin-top: 10px; font-weight: 600; }

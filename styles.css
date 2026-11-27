@@ -1,3 +1,6 @@
+@font-face{font-family:"Inter";font-style:normal;font-weight:300 700;font-display:swap;src:url("assets/fonts/inter-latin-wght-normal.woff2") format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:300 700;font-display:swap;src:url("assets/fonts/cormorant-garamond-latin-wght-normal.woff2") format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-style:italic;font-weight:300 700;font-display:swap;src:url("assets/fonts/cormorant-garamond-latin-wght-italic.woff2") format("woff2")}
 /* ==========================================================
    KOREDE ADENE PORTFOLIO
    MASTER STYLESHEET
@@ -76,6 +79,7 @@ textarea {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -2530,7 +2534,7 @@ section {
    28. REVEAL ANIMATION
 ========================================================== */
 
-.reveal {
+.reveal-enabled .reveal {
   opacity: 0;
 
   transform: translateY(25px);
@@ -2540,7 +2544,7 @@ section {
     transform 700ms ease;
 }
 
-.reveal.is-visible {
+.reveal-enabled .reveal.is-visible {
   opacity: 1;
 
   transform: translateY(0);
@@ -3440,7 +3444,7 @@ section {
 .contact-location__graphic { position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px; overflow: hidden; color: var(--navy); background: repeating-linear-gradient(25deg,transparent 0 36px,#d7dee3 37px 38px,transparent 39px 70px),repeating-linear-gradient(105deg,#e7ebee 0 60px,#d7dee3 61px 62px,#e7ebee 63px 120px); font-size: .8rem; letter-spacing: .12em; text-align: center; }
 .contact-location__pin { color: var(--blue); font-size: 4rem; line-height: 1; }
 .contact-location__copy { padding: 50px var(--page-padding); }.contact-location__copy h2 { margin: 0; font-family: var(--font-display); font-size: clamp(2.5rem,4vw,4.5rem); font-weight: 500; line-height: .9; }.contact-location__copy p:not(.eyebrow) { margin: 20px 0; color: var(--gray-dark); }
-.contact-finale { display: flex; justify-content: space-between; align-items: center; gap: 35px; min-height: 250px; padding: 50px var(--page-padding); color: white; background: linear-gradient(90deg,rgba(2,13,24,.95),rgba(2,13,24,.55)),url('assets/contact-monument.jpg') center/cover; }
+.contact-finale { display: flex; justify-content: space-between; align-items: center; gap: 35px; min-height: 250px; padding: 50px var(--page-padding); color: white; background: linear-gradient(90deg,rgba(2,13,24,.95),rgba(2,13,24,.55)),url('assets/contact-monument.webp') center/cover; }
 .contact-finale h2 { margin: 0; font-family: var(--font-display); font-size: clamp(2.5rem,4vw,4.5rem); font-weight: 500; line-height: .92; }.contact-finale p:last-child { margin: 20px 0 0; }
 @media (max-width: 900px) { .contact-columns { grid-template-columns: 1fr 1fr; }.contact-column--form { border: 0; padding-right: 0; }.contact-column--aside { grid-column: 1 / -1; margin-top: 45px; padding: 35px 0 0; border-top: var(--border); }.contact-column--aside ul { grid-template-columns: repeat(4,1fr); } }
 @media (max-width: 600px) { .contact-layout .contact-hero { height: auto; grid-template-columns: 1fr; }.contact-layout .contact-hero__content { padding: 65px var(--page-padding); }.contact-layout .contact-hero__visual { min-height: 320px; }.contact-columns { grid-template-columns: 1fr; }.contact-column { padding: 0 0 35px; margin-bottom: 35px; border-right: 0; border-bottom: var(--border); }.contact-column--aside { grid-column: auto; margin: 0; border: 0; padding: 0; }.contact-column--aside ul { grid-template-columns: 1fr 1fr; }.contact-location { grid-template-columns: 1fr; }.contact-location__graphic { min-height: 220px; }.contact-finale { align-items: flex-start; flex-direction: column; } }
@@ -3475,3 +3479,34 @@ section {
 @media (max-width: 600px) {
   .about-hero__visual .about-hero__portrait { left: 0; width: 77%; }
 }
+
+.res-viewer {
+  width: min(94vw, 1300px);
+  max-height: 94vh;
+  padding: clamp(12px, 2vw, 24px);
+  border: 1px solid #dfe5ec;
+  background: #fff;
+  color: var(--navy);
+}
+.res-viewer::backdrop { background: rgba(6, 27, 47, .82); }
+.res-viewer form { display: flex; justify-content: flex-end; margin: 0 0 12px; }
+.res-viewer button {
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid var(--blue-dark);
+  background: #fff;
+  color: var(--blue-dark);
+  font: inherit;
+  cursor: pointer;
+}
+.res-viewer figure { margin: 0; }
+.res-viewer img {
+  display: block;
+  width: 100%;
+  max-height: 73vh;
+  object-fit: contain;
+}
+.res-viewer figcaption { margin-top: 10px; font-weight: 600; }
+.res-viewer form {gap:.5rem;flex-wrap:wrap}.res-viewer figcaption{line-height:1.5}.res-viewer figcaption a {margin-inline-start:.7em;text-decoration:underline} [id]{scroll-margin-top:6rem}
+
+html:has(dialog.res-viewer[open]) { overflow: hidden; }

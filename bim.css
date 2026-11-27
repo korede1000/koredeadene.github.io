@@ -19,3 +19,5 @@
 .secure>div {max-width:39rem}.secure .bim-label {color:#bdd8ff}.secure a {color:white;text-decoration:underline;text-underline-offset:4px}
 .secure h2,.bim-cta h2 {font-size:clamp(2.4rem,4vw,5rem)}.bim-cta {justify-content:space-between}
 @media(max-width:760px){.bim-hero,.bim-spread{grid-template-columns:1fr}.bim-hero>img{clip-path:none;height:auto;min-height:0}.bim-spread{padding:2rem 5vw}.credential{gap:1rem}.bim-cta{align-items:flex-start;flex-direction:column}}
+
+.coord-review{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:4vw;padding:3rem var(--page-padding)}.coord-review figure{margin:0}.coord-review img{width:100%;height:auto}.coord-review figcaption{font-size:.8rem;margin-top:.5rem}.coord-review h2{font-family:var(--font-display);font-size:clamp(2rem,4vw,3.5rem);line-height:1}@media(max-width:700px){.coord-review{grid-template-columns:1fr}}

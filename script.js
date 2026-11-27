@@ -17,6 +17,9 @@
       );
     });
 
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && navToggle.getAttribute("aria-expanded") === "true") { navToggle.click(); navToggle.focus(); }
+    });
     nav.querySelectorAll("a").forEach((link) => {
       link.addEventListener("click", () => {
         navToggle.setAttribute("aria-expanded", "false");
@@ -33,6 +36,7 @@
   const revealItems = document.querySelectorAll(".reveal");
 
   if ("IntersectionObserver" in window) {
+    document.documentElement.classList.add("reveal-enabled");
     const observer = new IntersectionObserver(
       (entries, obs) => {
         entries.forEach((entry) => {
