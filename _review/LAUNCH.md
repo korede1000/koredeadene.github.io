@@ -1,3 +1,16 @@
+# Final pre-launch correction — 27 November 2026
+Production baseline: PR #11. All ten principal pages, the five project categories, shared brand, certification, portrait, share card, favicon and Projects copy were already in place. The reports below retain the original audit for comparison.
+
+Final changes: corrected the current NORR position and former Modern Niagara role; matched certification issue and expiry dates to the supplied certificate; identified two documented college studies as academic; corrected a homepage contraction and a generic image description; supplied 47 responsive archive thumbnails while preserving every original for enlargement. No public verification URL was found in the supplied certificate. No replacement badge, model, portfolio cover or portrait was generated.
+
+Rechecked 282 static links; no broken internal references or changed hyperlink destinations. All 79 viewer entries decoded and matched the expected full-size URL. Next, Previous, Close and focus restoration tested; earlier run also covered Escape. Confirmed empty-form and invalid-email rejection and captured the actual mailto navigation with encoded spaces, ampersand, plus sign and multiline message; sending and the visitor’s external mail app remain outside browser verification. See technical-tests.json for individual widths, axe results and local homepage measurements. No Safari, Firefox, Edge, assistive-technology or production field-performance claim.
+
+Live checks: sitemap.xml and robots.txt returned 200; a nested missing path returned 404 with the custom page. Header/footer routes were retained. No new public client documentation, credentials or contact provider added. Prior rights review remains applicable: presence in a public repository does not establish permission.
+
+**Owner actions:** confirm drawing/title-block permissions, archive credits, remaining role dates, project counts, public contact details and LinkedIn ownership; supply a public Autodesk badge URL only if one exists; approve release of this correction; select and purchase the domain and complete registrar DNS and Search Console ownership steps in DOMAIN.md.
+
+---
+
 # Launch decision: ready for owner review
 Review branch based on e56dc35. No change to the production source, custom domain, billing, mail provider or analytics configuration. Review the branch before merging. The public repository itself is not private storage.
 

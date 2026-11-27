@@ -152,5 +152,162 @@
     "largest-contentful-paint": "4.7\u00a0s",
     "total-blocking-time": "0\u00a0ms",
     "cumulative-layout-shift": "0.001"
+  },
+  "final_pass": {
+    "errors": [],
+    "widths": {
+      "404.html": {
+        "320": 0,
+        "375": 0,
+        "390": 0,
+        "430": 0,
+        "768": 0,
+        "1024": 0,
+        "1280": 0,
+        "1440": 0,
+        "1920": 0
+      },
+      "about.html": {
+        "320": 0,
+        "375": 0,
+        "390": 0,
+        "430": 0,
+        "768": 0,
+        "1024": 0,
+        "1280": 0,
+        "1440": 0,
+        "1920": 0
+      },
+      "bim-coordination.html": {
+        "320": 0,
+        "375": 0,
+        "390": 0,
+        "430": 0,
+        "768": 0,
+        "1024": 0,
+        "1280": 0,
+        "1440": 0,
+        "1920": 0
+      },
+      "commercial.html": {
+        "320": 0,
+        "375": 0,
+        "390": 0,
+        "430": 0,
+        "768": 0,
+        "1024": 0,
+        "1280": 0,
+        "1440": 0,
+        "1920": 0
+      },
+      "contact.html": {
+        "320": 0,
+        "375": 0,
+        "390": 0,
+        "430": 0,
+        "768": 0,
+        "1024": 0,
+        "1280": 0,
+        "1440": 0,
+        "1920": 0
+      },
+      "custom-designs.html": {
+        "320": 0,
+        "375": 0,
+        "390": 0,
+        "430": 0,
+        "768": 0,
+        "1024": 0,
+        "1280": 0,
+        "1440": 0,
+        "1920": 0
+      },
+      "index.html": {
+        "320": 0,
+        "375": 0,
+        "390": 0,
+        "430": 0,
+        "768": 0,
+        "1024": 0,
+        "1280": 0,
+        "1440": 0,
+        "1920": 0
+      },
+      "major-works.html": {
+        "320": 0,
+        "375": 0,
+        "390": 0,
+        "430": 0,
+        "768": 0,
+        "1024": 0,
+        "1280": 0,
+        "1440": 0,
+        "1920": 0
+      },
+      "projects.html": {
+        "320": 0,
+        "375": 0,
+        "390": 0,
+        "430": 0,
+        "768": 0,
+        "1024": 0,
+        "1280": 0,
+        "1440": 0,
+        "1920": 0
+      },
+      "residential.html": {
+        "320": 0,
+        "375": 0,
+        "390": 0,
+        "430": 0,
+        "768": 0,
+        "1024": 0,
+        "1280": 0,
+        "1440": 0,
+        "1920": 0
+      },
+      "services.html": {
+        "320": 0,
+        "375": 0,
+        "390": 0,
+        "430": 0,
+        "768": 0,
+        "1024": 0,
+        "1280": 0,
+        "1440": 0,
+        "1920": 0
+      }
+    },
+    "gallery": {
+      "commercial.html": 11,
+      "custom-designs.html": 47,
+      "residential.html": 21
+    },
+    "links": 282,
+    "broken": [],
+    "axe": {
+      "404.html": [],
+      "about.html": [],
+      "bim-coordination.html": [],
+      "commercial.html": [],
+      "contact.html": [],
+      "custom-designs.html": [],
+      "index.html": [],
+      "major-works.html": [],
+      "projects.html": [],
+      "residential.html": [],
+      "services.html": []
+    },
+    "emptyInvalid": true,
+    "badEmailInvalid": true,
+    "draft": "Name: A & B\nEmail: test@example.org\nCompany: A+B\nProject type: \u2014\n\nFirst line\nA & B?",
+    "lighthouse": {
+      "performance": 82.0,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "lcp": "4.8\u00a0s"
   }
 }
