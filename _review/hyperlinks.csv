@@ -1,0 +1,283 @@
+Source,Accessible label,Final destination,Original destination if different,Result
+404.html,Explore projects →,projects.html,projects.html,pass
+404.html,Return home,index.html,index.html,pass
+about.html,Skip to content,#main-content,#main-content,pass
+about.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+about.html,Home,index.html,index.html,pass
+about.html,About,about.html,about.html,pass
+about.html,Projects,projects.html,projects.html,pass
+about.html,Services,services.html,services.html,pass
+about.html,Contact,contact.html,contact.html,pass
+about.html,Let's connect →,contact.html,contact.html,pass
+about.html,Get in touch →,contact.html,contact.html,pass
+about.html,Get in touch →,contact.html,contact.html,pass
+about.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+about.html,Home,index.html,index.html,pass
+about.html,About,about.html,about.html,pass
+about.html,Projects,projects.html,projects.html,pass
+about.html,Services,services.html,services.html,pass
+about.html,Contact,contact.html,contact.html,pass
+about.html,Email Korede,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+about.html,Icons8,https://icons8.com/,https://icons8.com/,HTTP 200
+bim-coordination.html,Skip to content,#main-content,#main-content,pass
+bim-coordination.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+bim-coordination.html,Home,index.html,index.html,pass
+bim-coordination.html,About,about.html,about.html,pass
+bim-coordination.html,Projects,projects.html,projects.html,pass
+bim-coordination.html,Services,services.html,services.html,pass
+bim-coordination.html,Contact,contact.html,contact.html,pass
+bim-coordination.html,Let's connect →,contact.html,contact.html,pass
+bim-coordination.html,Projects,projects.html,projects.html,pass
+bim-coordination.html,Explore my Centre Block experience →,major-works.html,major-works.html,pass
+bim-coordination.html,Discuss coordination →,contact.html,contact.html,pass
+bim-coordination.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+bim-coordination.html,Home,index.html,index.html,pass
+bim-coordination.html,About,about.html,about.html,pass
+bim-coordination.html,Projects,projects.html,projects.html,pass
+bim-coordination.html,Services,services.html,services.html,pass
+bim-coordination.html,Contact,contact.html,contact.html,pass
+bim-coordination.html,Email Korede,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+commercial.html,Skip to content,#main-content,#main-content,pass
+commercial.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+commercial.html,Home,index.html,index.html,pass
+commercial.html,About,about.html,about.html,pass
+commercial.html,Projects,projects.html,projects.html,pass
+commercial.html,Services,services.html,services.html,pass
+commercial.html,Contact,contact.html,contact.html,pass
+commercial.html,Let's connect →,contact.html,contact.html,pass
+commercial.html,← All projects,projects.html,projects.html,pass
+commercial.html,Browse the drawings ↓,#drawings,#drawings,pass
+commercial.html,Project overview and campus context,assets/commercial/01.webp,assets/commercial/01.webp,pass
+commercial.html,Floor plan,assets/commercial/03.webp,assets/commercial/03.webp,pass
+commercial.html,Exterior elevations,assets/commercial/04.webp,assets/commercial/04.webp,pass
+commercial.html,Drawing notes and schedules,assets/commercial/02.webp,assets/commercial/02.webp,pass
+commercial.html,Exterior elevation,assets/commercial/08.webp,assets/commercial/08.webp,pass
+commercial.html,Structural framing grid,assets/commercial/06.webp,assets/commercial/06.webp,pass
+commercial.html,Structural floor plan,assets/commercial/07.webp,assets/commercial/07.webp,pass
+commercial.html,Office cutaway and drawing index,assets/commercial/09.webp,assets/commercial/09.webp,pass
+commercial.html,Site plan and context,assets/commercial/11.webp,assets/commercial/11.webp,pass
+commercial.html,Ground floor and wall types,assets/commercial/12.webp,assets/commercial/12.webp,pass
+commercial.html,"Notes, symbols and drawing references",assets/commercial/10.webp,assets/commercial/10.webp,pass
+commercial.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+commercial.html,Home,index.html,index.html,pass
+commercial.html,About,about.html,about.html,pass
+commercial.html,Projects,projects.html,projects.html,pass
+commercial.html,Services,services.html,services.html,pass
+commercial.html,Contact,contact.html,contact.html,pass
+commercial.html,Email Korede,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+contact.html,Skip to content,#main-content,#main-content,pass
+contact.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+contact.html,Home,index.html,index.html,pass
+contact.html,About,about.html,about.html,pass
+contact.html,Projects,projects.html,projects.html,pass
+contact.html,Services,services.html,services.html,pass
+contact.html,Contact,contact.html,contact.html,pass
+contact.html,Let's connect →,contact.html,contact.html,pass
+contact.html,Get in touch →,#message-form,#message-form,pass
+contact.html,KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+contact.html,+1 (613) 720-1036,tel:+16137201036,tel:+16137201036,valid format
+contact.html,linkedin.com/in/korede-adene,https://www.linkedin.com/in/korede-adene/,https://www.linkedin.com/in/korede-adene/,HTTP 999
+contact.html,KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+contact.html,View on map →,https://www.openstreetmap.org/search?query=Ottawa%2C%20Ontario%2C%20Canada,https://www.openstreetmap.org/search?query=Ottawa%2C%20Ontario%2C%20Canada,HTTP 200
+contact.html,Get in touch →,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+contact.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+contact.html,Home,index.html,index.html,pass
+contact.html,About,about.html,about.html,pass
+contact.html,Projects,projects.html,projects.html,pass
+contact.html,Services,services.html,services.html,pass
+contact.html,Contact,contact.html,contact.html,pass
+contact.html,Email Korede,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+custom-designs.html,Skip to content,#main-content,#main-content,pass
+custom-designs.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+custom-designs.html,Home,index.html,index.html,pass
+custom-designs.html,About,about.html,about.html,pass
+custom-designs.html,Projects,projects.html,projects.html,pass
+custom-designs.html,Services,services.html,services.html,pass
+custom-designs.html,Contact,contact.html,contact.html,pass
+custom-designs.html,Let's connect →,contact.html,contact.html,pass
+custom-designs.html,← All projects,projects.html,projects.html,pass
+custom-designs.html,Browse the studies ↓,#studies,#studies,pass
+custom-designs.html,View full image: Concrete wave,assets/custom/concrete.webp,assets/custom/concrete.webp,pass
+custom-designs.html,View full image: Stairs into the garden,assets/custom/garden.webp,assets/custom/garden.webp,pass
+custom-designs.html,View full image: Lagos from above,assets/custom/lagos.webp,assets/custom/lagos.webp,pass
+custom-designs.html,View full image: Floating mirror,assets/custom/mirror.webp,assets/custom/mirror.webp,pass
+custom-designs.html,View full image: Desert courtyard canal,assets/custom/canal.webp,assets/custom/canal.webp,pass
+custom-designs.html,View full image: Football stadium,assets/custom/stadium.webp,assets/custom/stadium.webp,pass
+custom-designs.html,Terrace at the horizon,assets/custom/study-07.webp,assets/custom/study-07.webp,pass
+custom-designs.html,Courtyard pools from above,assets/custom/study-08.webp,assets/custom/study-08.webp,pass
+custom-designs.html,Circular courts and planted terraces,assets/custom/study-09.webp,assets/custom/study-09.webp,pass
+custom-designs.html,Portrait with octopus tentacles,assets/custom/study-10.webp,assets/custom/study-10.webp,pass
+custom-designs.html,Underwater portrait in profile,assets/custom/study-11.webp,assets/custom/study-11.webp,pass
+custom-designs.html,Timber lodge beside a pool,assets/custom/study-12.webp,assets/custom/study-12.webp,pass
+custom-designs.html,Palm-lined pool terrace,assets/custom/study-13.webp,assets/custom/study-13.webp,pass
+custom-designs.html,Garden loungers beneath the canopy,assets/custom/study-14.webp,assets/custom/study-14.webp,pass
+custom-designs.html,Violet folded surfaces,assets/custom/study-15.webp,assets/custom/study-15.webp,pass
+custom-designs.html,Silhouette in window light,assets/custom/study-16.webp,assets/custom/study-16.webp,pass
+custom-designs.html,Profile in green light,assets/custom/study-17.webp,assets/custom/study-17.webp,pass
+custom-designs.html,Folded concrete in close-up,assets/custom/study-18.webp,assets/custom/study-18.webp,pass
+custom-designs.html,Curved stair through a garden,assets/custom/study-19.webp,assets/custom/study-19.webp,pass
+custom-designs.html,Reflecting pool at a hillside pavilion,assets/custom/study-20.webp,assets/custom/study-20.webp,pass
+custom-designs.html,Narrow street elevation,assets/custom/study-21.webp,assets/custom/study-21.webp,pass
+custom-designs.html,Glazed courtyard house at dusk,assets/custom/study-22.webp,assets/custom/study-22.webp,pass
+custom-designs.html,Spiral pavilion in the trees,assets/custom/study-23.webp,assets/custom/study-23.webp,pass
+custom-designs.html,Canal between courtyard walls,assets/custom/study-24.webp,assets/custom/study-24.webp,pass
+custom-designs.html,Stone sphere and flowering cactus,assets/custom/study-25.webp,assets/custom/study-25.webp,pass
+custom-designs.html,Snowbound courtyard house,assets/custom/study-26.webp,assets/custom/study-26.webp,pass
+custom-designs.html,Stair beneath a patterned screen,assets/custom/study-27.webp,assets/custom/study-27.webp,pass
+custom-designs.html,Cavern garden with water,assets/custom/study-28.webp,assets/custom/study-28.webp,pass
+custom-designs.html,Daylight in a vaulted interior,assets/custom/study-29.webp,assets/custom/study-29.webp,pass
+custom-designs.html,Winter street corner,assets/custom/study-30.webp,assets/custom/study-30.webp,pass
+custom-designs.html,Blue and ochre coastline study,assets/custom/study-31.webp,assets/custom/study-31.webp,pass
+custom-designs.html,Cantilevered house at dusk,assets/custom/study-32.webp,assets/custom/study-32.webp,pass
+custom-designs.html,Yellow-framed courtyard,assets/custom/study-33.webp,assets/custom/study-33.webp,pass
+custom-designs.html,Reflective droplet on stone,assets/custom/study-34.webp,assets/custom/study-34.webp,pass
+custom-designs.html,Waterline in pale blue,assets/custom/study-35.webp,assets/custom/study-35.webp,pass
+custom-designs.html,Circular opening in a colonnade,assets/custom/study-36.webp,assets/custom/study-36.webp,pass
+custom-designs.html,Planted interior staircase,assets/custom/study-37.webp,assets/custom/study-37.webp,pass
+custom-designs.html,Marbled portrait in blue,assets/custom/study-38.webp,assets/custom/study-38.webp,pass
+custom-designs.html,Portrait with an ochre headwrap,assets/custom/study-39.webp,assets/custom/study-39.webp,pass
+custom-designs.html,Red sunset over the city,assets/custom/study-40.webp,assets/custom/study-40.webp,pass
+custom-designs.html,Brick and timber garden facade,assets/custom/study-41.webp,assets/custom/study-41.webp,pass
+custom-designs.html,Double-height living room,assets/custom/study-42.webp,assets/custom/study-42.webp,pass
+custom-designs.html,Curved balconies in the canopy,assets/custom/study-43.webp,assets/custom/study-43.webp,pass
+custom-designs.html,Woodland house among trees,assets/custom/study-44.webp,assets/custom/study-44.webp,pass
+custom-designs.html,Sun above a red landscape,assets/custom/study-45.webp,assets/custom/study-45.webp,pass
+custom-designs.html,Autumn tree in a stone court,assets/custom/study-46.webp,assets/custom/study-46.webp,pass
+custom-designs.html,Twin pavilions across a pool,assets/custom/study-47.webp,assets/custom/study-47.webp,pass
+custom-designs.html,Discuss your project →,contact.html,contact.html,pass
+custom-designs.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+custom-designs.html,Home,index.html,index.html,pass
+custom-designs.html,About,about.html,about.html,pass
+custom-designs.html,Projects,projects.html,projects.html,pass
+custom-designs.html,Services,services.html,services.html,pass
+custom-designs.html,Contact,contact.html,contact.html,pass
+custom-designs.html,Email Korede,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+index.html,Skip to content,#main-content,#main-content,pass
+index.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+index.html,Home,index.html,index.html,pass
+index.html,About,about.html,about.html,pass
+index.html,Projects,projects.html,projects.html,pass
+index.html,Services,services.html,services.html,pass
+index.html,Contact,contact.html,contact.html,pass
+index.html,Let's connect →,contact.html,contact.html,pass
+index.html,View my work →,projects.html,projects.html,pass
+index.html,Explore services,services.html,services.html,pass
+index.html,Scroll ↓,#services,#services,pass
+index.html,"BIM Coordination Clash detection, model coordination and constructible solutions. →",services.html#bim-coordination,bim-coordination.html,pass
+index.html,Architectural Design From concept to detailed design drawings. →,services.html#architectural-design,services.html#architectural-design,pass
+index.html,3D Visualization Bring ideas to life with realistic renderings and walkthroughs. →,services.html#visualization,services.html#visualization,pass
+index.html,"Construction Documentation Accurate, code-compliant and build-ready drawings. →",services.html#documentation,services.html#documentation,pass
+index.html,View all projects →,projects.html,projects.html,pass
+index.html,01 / BIM Coordination,bim-coordination.html,bim-coordination.html,pass
+index.html,02 / Major Works,major-works.html,major-works.html,pass
+index.html,03 / Commercial Drawings,commercial.html,commercial.html,pass
+index.html,04 / Residential Drawings,residential.html,residential.html,pass
+index.html,05 / Custom Designs,custom-designs.html,custom-designs.html,pass
+index.html,More about me →,about.html,about.html,pass
+index.html,Get in touch →,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+index.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+index.html,Home,index.html,index.html,pass
+index.html,About,about.html,about.html,pass
+index.html,Projects,projects.html,projects.html,pass
+index.html,Services,services.html,services.html,pass
+index.html,Contact,contact.html,contact.html,pass
+index.html,Email Korede,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+major-works.html,Skip to content,#main-content,#main-content,pass
+major-works.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+major-works.html,Home,index.html,index.html,pass
+major-works.html,About,about.html,about.html,pass
+major-works.html,Projects,projects.html,projects.html,pass
+major-works.html,Services,services.html,services.html,pass
+major-works.html,Contact,contact.html,contact.html,pass
+major-works.html,Let's connect →,contact.html,contact.html,pass
+major-works.html,Major Works / 01,projects.html,projects.html,pass
+major-works.html,Discuss your project →,contact.html,contact.html,pass
+major-works.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+major-works.html,Home,index.html,index.html,pass
+major-works.html,About,about.html,about.html,pass
+major-works.html,Projects,projects.html,projects.html,pass
+major-works.html,Services,services.html,services.html,pass
+major-works.html,Contact,contact.html,contact.html,pass
+major-works.html,Email Korede,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+projects.html,Skip to content,#main-content,#main-content,pass
+projects.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+projects.html,Home,index.html,index.html,pass
+projects.html,About,about.html,about.html,pass
+projects.html,Projects,projects.html,projects.html,pass
+projects.html,Services,services.html,services.html,pass
+projects.html,Contact,contact.html,contact.html,pass
+projects.html,Let's connect →,contact.html,contact.html,pass
+projects.html,Explore work →,bim-coordination.html,bim-coordination.html,pass
+projects.html,Explore experience →,major-works.html,major-works.html,pass
+projects.html,Explore work →,commercial.html,commercial.html,pass
+projects.html,Explore projects →,residential.html,residential.html,pass
+projects.html,Explore work →,custom-designs.html,custom-designs.html,pass
+projects.html,Explore BIM coordination →,bim-coordination.html,bim-coordination.html,pass
+projects.html,Major Works,major-works.html,major-works.html,pass
+projects.html,Commercial Drawings,commercial.html,commercial.html,pass
+projects.html,View residential projects →,residential.html,residential.html,pass
+projects.html,Custom Designs,custom-designs.html,custom-designs.html,pass
+projects.html,Get in touch →,contact.html,contact.html,pass
+projects.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+projects.html,Home,index.html,index.html,pass
+projects.html,About,about.html,about.html,pass
+projects.html,Projects,projects.html,projects.html,pass
+projects.html,Services,services.html,services.html,pass
+projects.html,Contact,contact.html,contact.html,pass
+projects.html,Email Korede,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+residential.html,Skip to content,#main-content,#main-content,pass
+residential.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+residential.html,Home,index.html,index.html,pass
+residential.html,About,about.html,about.html,pass
+residential.html,Projects,projects.html,projects.html,pass
+residential.html,Services,services.html,services.html,pass
+residential.html,Contact,contact.html,contact.html,pass
+residential.html,Let's connect →,contact.html,contact.html,pass
+residential.html,← All projects,projects.html,projects.html,pass
+residential.html,Explore the projects ↓,#homes,#homes,pass
+residential.html,Ground floor plan ↗,assets/residential/gallery/flat-roof/ground-floor.webp,assets/residential/gallery/flat-roof/ground-floor.webp,pass
+residential.html,East and west elevations ↗,assets/residential/gallery/flat-roof/east-west.webp,assets/residential/gallery/flat-roof/east-west.webp,pass
+residential.html,Building sections ↗,assets/residential/gallery/flat-roof/sections.webp,assets/residential/gallery/flat-roof/sections.webp,pass
+residential.html,Exterior rendering ↗,assets/residential/gallery/tampa/rendering.webp,assets/residential/gallery/tampa/rendering.webp,pass
+residential.html,First floor plan ↗,assets/residential/gallery/tampa/first-floor.webp,assets/residential/gallery/tampa/first-floor.webp,pass
+residential.html,Building sections ↗,assets/residential/gallery/tampa/sections.webp,assets/residential/gallery/tampa/sections.webp,pass
+residential.html,Main floor existing and demolition plan ↗,assets/residential/gallery/ogilvie/main-floor-existing.webp,assets/residential/gallery/ogilvie/main-floor-existing.webp,pass
+residential.html,Basement existing and demolition plan ↗,assets/residential/gallery/ogilvie/basement-existing.webp,assets/residential/gallery/ogilvie/basement-existing.webp,pass
+residential.html,Proposed basement plan ↗,assets/residential/gallery/ogilvie/basement-proposed.webp,assets/residential/gallery/ogilvie/basement-proposed.webp,pass
+residential.html,Main floor plan ↗,assets/residential/gallery/legallais/main-floor.webp,assets/residential/gallery/legallais/main-floor.webp,pass
+residential.html,Roof plan ↗,assets/residential/gallery/legallais/roof-plan.webp,assets/residential/gallery/legallais/roof-plan.webp,pass
+residential.html,Exterior elevations ↗,assets/residential/gallery/legallais/elevations.webp,assets/residential/gallery/legallais/elevations.webp,pass
+residential.html,Exterior rendering ↗,assets/residential/gallery/cummings/rendering.webp,assets/residential/gallery/cummings/rendering.webp,pass
+residential.html,Second floor plan ↗,assets/residential/gallery/cummings/second-floor.webp,assets/residential/gallery/cummings/second-floor.webp,pass
+residential.html,Building section ↗,assets/residential/gallery/cummings/section.webp,assets/residential/gallery/cummings/section.webp,pass
+residential.html,Exterior perspective ↗,assets/residential/gallery/beechwood/perspective.webp,assets/residential/gallery/beechwood/perspective.webp,pass
+residential.html,Second level floor plan ↗,assets/residential/gallery/beechwood/second-floor.webp,assets/residential/gallery/beechwood/second-floor.webp,pass
+residential.html,Building section ↗,assets/residential/gallery/beechwood/section.webp,assets/residential/gallery/beechwood/section.webp,pass
+residential.html,Exterior perspective ↗,assets/residential/gallery/bronson/perspective.webp,assets/residential/gallery/bronson/perspective.webp,pass
+residential.html,Second floor plan ↗,assets/residential/gallery/bronson/second-floor.webp,assets/residential/gallery/bronson/second-floor.webp,pass
+residential.html,Building section ↗,assets/residential/gallery/bronson/section.webp,assets/residential/gallery/bronson/section.webp,pass
+residential.html,Get in touch →,contact.html,contact.html,pass
+residential.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+residential.html,Home,index.html,index.html,pass
+residential.html,About,about.html,about.html,pass
+residential.html,Projects,projects.html,projects.html,pass
+residential.html,Services,services.html,services.html,pass
+residential.html,Contact,contact.html,contact.html,pass
+residential.html,Email Korede,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format
+services.html,Skip to content,#main-content,#main-content,pass
+services.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+services.html,Home,index.html,index.html,pass
+services.html,About,about.html,about.html,pass
+services.html,Projects,projects.html,projects.html,pass
+services.html,Services,services.html,services.html,pass
+services.html,Contact,contact.html,contact.html,pass
+services.html,Let's connect →,contact.html,contact.html,pass
+services.html,Explore BIM coordination →,bim-coordination.html,bim-coordination.html,pass
+services.html,Connect with me →,contact.html,contact.html,pass
+services.html,Korede Adene — Design | Coordinate | Build Better — Home,index.html,index.html,pass
+services.html,Home,index.html,index.html,pass
+services.html,About,about.html,about.html,pass
+services.html,Projects,projects.html,projects.html,pass
+services.html,Services,services.html,services.html,pass
+services.html,Contact,contact.html,contact.html,pass
+services.html,Email Korede,mailto:KoredeAdene@gmail.com,mailto:KoredeAdene@gmail.com,valid format

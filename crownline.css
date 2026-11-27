@@ -29,3 +29,13 @@ body :focus-visible {outline:3px solid var(--blue);outline-offset:3px}
  body .site-footer .site-footer__inner {grid-template-columns:1fr;justify-items:start;text-align:left;gap:1.25rem}
  body .site-footer .footer-nav {display:flex;flex-wrap:wrap;gap:.7rem 1rem}
 }
+
+/* Reading contrast on the pale editorial surfaces. */
+.site-footer__meta p,.site-footer__meta a,.approach-item p,.experience-section__header>p{color:#51595e}
+.home-page .about__heading .eyebrow,.home-page .about__title em,.home-page .about__copy p,.res-section__heading h2 em{color:#46565e}
+@media(max-width:600px){
+ .contact-columns{grid-template-columns:minmax(0,1fr)}.contact-column{min-width:0}.contact-methods dd{overflow-wrap:anywhere}
+ .bim-hero{grid-template-columns:minmax(0,1fr)}.bim-hero>div{padding:1.5rem var(--page-padding)}.bim-hero h1{font-size:clamp(2.9rem,12vw,3.8rem)}
+}
+
+@media(max-width:420px){.contact-columns{display:block}.contact-column input,.contact-column select,.contact-column textarea{min-width:0;max-width:100%}.contact-methods>div{grid-template-columns:minmax(0,1fr)}.contact-column{overflow-wrap:anywhere}}

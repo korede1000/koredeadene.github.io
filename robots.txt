@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://korede1000.github.io/koredeadene.github.io/sitemap.xml
